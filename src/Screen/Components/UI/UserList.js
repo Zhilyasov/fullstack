@@ -26,7 +26,7 @@ const UserList = props => {
 					)
 				})}
 			</section>
-			<Modal active={modalActive} setActive={setModalActive} info={cardInfo} />
+			<Modal active={modalActive} setActive={setModalActive} info={cardInfo}/>
 		</>
 	)
 }

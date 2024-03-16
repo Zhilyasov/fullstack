@@ -4,6 +4,7 @@ import '../../Styles/UserCard.sass'
 const UserCard = props => {
 	let tel = 'tel:+' + props.phone
 	let mailto = 'mailto:' + props.email
+
 	return (
 		<button
 			className='user_card'
