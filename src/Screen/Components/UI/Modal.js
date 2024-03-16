@@ -7,11 +7,6 @@ const Modal = ({ active, setActive, info, height, children }) => {
 		setActive(false)
 	}
 
-	console.log(
-		'penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean'
-			.length
-	)
-
 	return (
 		// при нажатии на карточку
 		<div
@@ -61,7 +56,10 @@ const Modal = ({ active, setActive, info, height, children }) => {
 				</div>
 				<div className='l3'>
 					<span>Дополнительная информация:</span>
-					<p>Разработчики используют текст в качестве заполнителя макта страницы. Разработчики используют текст в качестве заполнителя макта страницы.</p>
+					<p>
+						Разработчики используют текст в качестве заполнителя макта страницы.
+						Разработчики используют текст в качестве заполнителя макта страницы.
+					</p>
 				</div>
 			</div>
 		</div>

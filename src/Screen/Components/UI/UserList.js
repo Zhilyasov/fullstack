@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../../Styles/UserList.sass'
-import UserCard from './UserCard'
 import Modal from './Modal'
+import UserCard from './UserCard'
 
 const UserList = props => {
 	const [modalActive, setModalActive] = useState(false)
@@ -26,7 +26,7 @@ const UserList = props => {
 					)
 				})}
 			</section>
-			<Modal active={modalActive} setActive={setModalActive} info={cardInfo}/>
+			<Modal active={modalActive} setActive={setModalActive} info={cardInfo} />
 		</>
 	)
 }

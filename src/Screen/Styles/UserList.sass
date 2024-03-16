@@ -1,6 +1,8 @@
 .user_list
 	display: grid
 	justify-content: space-between
+	justify-items: center
 	row-gap: 24px
 	margin-top: 32px
-	grid-template-columns: repeat(3, 357px)
+	// grid-template-columns: repeat(3, 357px)
+	grid-template-columns: repeat(auto-fill, minmax(357px, 1fr))

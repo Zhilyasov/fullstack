@@ -3,15 +3,14 @@ import PostService from '../../../API/PostService'
 import '../../Styles/Search.sass'
 
 const Search = props => {
+	
 	const searchUser = e => {
 		e.preventDefault()
-		fetchList()
+		fetchListByName()
 	}
 
-	async function fetchList() {
-		console.log(props.value)
+	async function fetchListByName() {
 		const response = await PostService.getByName(props.value)
-		console.log(response.data)
 	}
 
 	return (
